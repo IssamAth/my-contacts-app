@@ -10,11 +10,16 @@ const App = () => {
         <Navbar />
       </div>
 
-      <div className=' mt-16'>
-        <SearchField />
+      <div className=' mt-20 flex w-screen justify-between items-center container mx-auto h-14'>
+        <div className=' text-4xl'>
+          100 Contact(s)
+        </div>
+        <div className=' w-40v h-full'>
+          <SearchField />
+        </div>
       </div>
 
-      <div className=' my-10 mt-32'>
+      <div className=' my-10 mt-4'>
         <RandomUser />
       </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchField = () => {
   return (
-    <div className="flex items-center border rounded-lg overflow-hidden">
+    <div className="flex items-center border border-slate-700 rounded-md overflow-hidden h-full">
       <input
         type="text"
         placeholder="Search..."
