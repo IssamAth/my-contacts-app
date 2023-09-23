@@ -15,7 +15,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536px',
+      '2xl': '1800px',
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
@@ -694,6 +694,7 @@ module.exports = {
     maxWidth: ({ theme, breakpoints }) => ({
       none: 'none',
       0: '0rem',
+      bs: '15%',
       xs: '20rem',
       sm: '24rem',
       md: '28rem',
@@ -987,7 +988,7 @@ module.exports = {
       '2/5': '40%',
       '3/5': '60%',
       '4/5': '80%',
-      '1/6': '16.666667%',
+      '1/6': '15%',
       '2/6': '33.333333%',
       '3/6': '50%',
       '4/6': '66.666667%',
